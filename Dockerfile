@@ -1,6 +1,6 @@
 FROM alpine:3.3
 
-RUN apk update && apk add \
+RUN apk update && apk add qemu-img \
   qemu-system-or32 \
   qemu-system-mips64el \
   qemu-system-ppc64 \
